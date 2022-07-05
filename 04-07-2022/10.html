@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css"> 
+			div {
+                left: 600px;
+                top: 300px;
+                height: 100px;
+                width: 100px;
+                background-color: #555;
+                border-radius: 50%;
+			  background-color: red;
+			  position:relative;
+			  animation-name:Demo;
+			  animation-duration:0.5s;
+			  animation-iteration-count:infinite;
+              align-content: center;
+              overflow: hidden;
+                
+			 }
+	
+			@keyframes Demo{
+        
+   0% {
+      transform: rotate(0deg) translateX(300px) rotate(0deg);
+   }
+   
+   100% {
+      transform: rotate(360deg) translateX(300px) rotate(-360deg);
+   }
+}
+		</style>
+	</head>
+    
+	<body>
+        
+		<div></div>
+        
+	</body>
+</html>
