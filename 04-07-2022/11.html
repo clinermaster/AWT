@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Title of the document</title>
+  <style type="text/css">
+    .center {
+      margin: auto;
+      width: 10%;
+      padding: 270px;
+    }
+<!--
+   
+-->
+    .circle1 {
+      margin-top: 20px;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      background: #4bc475;
+      border: 1px solid #000;
+      animation-name: Demo;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      align-content: center;
+    }
+    .circle2 {
+      margin-top: 20px;
+      border-radius: 50%;
+      
+      width: 100px;
+      height: 100px;
+      background: #a1a1a1;
+      border: 1px solid #000;
+      animation-name: Demo;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      align-content: center;
+    }
+   
+
+    @keyframes Demo {
+
+      0% {
+        transform: rotate(0deg) translateX(300px) rotate(360deg);
+      }
+
+      100% {
+        transform: rotate(360deg) translateX(300px) rotate(-360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="center">
+    <div class="circleBase circle1"></div>
+    <div class="circleBase circle2"></div>
+  </div>
+</body>
+
+</html>
